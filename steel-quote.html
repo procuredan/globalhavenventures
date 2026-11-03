@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Prepanelized Cold-Formed Steel Framing Quote | Global Haven Ventures</title>
+<meta name="description" content="Get a quote for prepanelized cold-formed steel wall panels, floor trusses and roof trusses. Up to 50% less framing time, under 1% waste, panels to ±1 mm, framing up to 7 stories, all-US steel." />
+<link rel="canonical" href="https://globalhavenventures.com/steel-quote" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Global Haven Ventures" />
+<meta property="og:title" content="Stop losing weeks to framing. Get your steel quote today." />
+<meta property="og:description" content="Prepanelized cold-formed steel wall panels, floor trusses and roof trusses, engineered to your drawings and delivered ready to stand." />
+<meta property="og:url" content="https://globalhavenventures.com/steel-quote" />
+<meta property="og:image" content="https://globalhavenventures.com/assets/walls-on-slab.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#2F3532" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+<link rel="stylesheet" href="/ghv.css" />
+<link rel="preload" href="/assets/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/assets/walls-on-slab.webp" as="image" />
+<style>
+/* /steel-quote — Google Ads landing page + 4-step quote funnel.
+   Layout/copy/behavior from ghv-steel-quote-page-preview-v8.html; styling uses the live ghv.css tokens
+   and classes. Page-scoped rules are prefixed sq- so nothing here can leak into other pages. */
+.sq-head nav{gap:18px}
+.sq-head .sq-phone{font:500 .92rem/1 var(--mono);color:var(--ink);text-decoration:none;white-space:nowrap}
+.sq-hero{padding-block:clamp(40px,6vw,88px)}
+.sq-hero .hero-bg{object-position:50% 60%}
+.sq-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,4vw,56px);align-items:start}
+.sq-grid > *{min-width:0}
+.sq-hero h1{font-size:clamp(2.4rem,5.4vw,4.4rem);margin:18px 0 0;max-width:12.5em}
+.sq-hero .sq-lead{color:#DCE3DE;font-size:1.14rem;max-width:34em;margin:22px 0 0}
+.sq-pts{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:10px}
+.sq-pts li{display:flex;gap:12px;align-items:baseline;color:#fff;font-weight:600}
+.sq-pts li::before{content:"";flex:none;width:9px;height:9px;background:#9BE0AE;transform:translateY(-1px)}
+.sq-stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:32px;border:1px solid rgba(255,255,255,.22);background:rgba(30,35,32,.45);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.sq-stats div{padding:14px 14px 16px}
+.sq-stats div+div{border-left:1px solid rgba(255,255,255,.16)}
+.sq-stats b{display:block;font:800 1.7rem/1.1 var(--display);font-stretch:108%;color:#fff}
+.sq-stats span{font:500 .68rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:#C3CCC6}
+
+/* quote card */
+.sq-card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--green);padding:clamp(20px,2.4vw,28px);box-shadow:0 24px 50px -28px rgba(0,0,0,.6);scroll-margin-top:100px}
+.sq-prog{height:4px;background:var(--line);margin:0 0 8px}
+.sq-prog i{display:block;height:100%;width:25%;background:var(--green);transition:width .25s}
+.sq-stepno{display:flex;justify-content:space-between;align-items:center;font:500 .72rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--soft);margin-bottom:16px;min-height:22px}
+.sq-back{background:none;border:0;color:var(--green-ink);font:500 .72rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;cursor:pointer;padding:4px 0}
+.sq-back[hidden]{display:none}
+.sq-q{font-size:clamp(1.45rem,2.6vw,1.8rem);line-height:1.15;margin:0 0 16px;font-stretch:106%}
+.sq-step{display:none}.sq-step.on{display:block}
+.sq-tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sq-tile{font:600 1rem/1.25 var(--display);text-align:left;padding:16px 14px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:3px;cursor:pointer;min-height:66px;transition:border-color .15s,background .15s}
+.sq-tile:hover,.sq-tile:focus-visible{border-color:var(--green);outline:none;background:var(--green-wash)}
+.sq-tile small{display:block;font:400 .8rem/1.3 var(--display);color:var(--soft);margin-top:4px}
+.sq-card label{display:block;font:500 .72rem/1 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--ink);margin:14px 0 6px}
+.sq-card input,.sq-card select,.sq-card textarea{width:100%;font:400 1rem/1.3 var(--display);color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:3px;padding:12px;min-height:46px}
+.sq-card textarea{min-height:84px;resize:vertical}
+.sq-card input:focus,.sq-card select:focus,.sq-card textarea:focus{outline:2px solid var(--green);outline-offset:1px;border-color:var(--green-ink)}
+.sq-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sq-row > div{min-width:0}
+.sq-card .opt{text-transform:none;letter-spacing:0;font-family:var(--display);color:var(--soft)}
+.sq-submit{width:100%;justify-content:center;margin-top:18px;border:0;cursor:pointer;font-size:1rem;padding:16px 20px}
+.sq-err{color:#B3261E;font-size:.9rem;margin:10px 0 0;min-height:1em}
+.sq-fine{font-size:.78rem;line-height:1.5;color:var(--soft);margin:12px 0 0}
+.sq-fine a{color:var(--green-ink)}
+.sq-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* sections */
+.sq-photo3{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px}
+.sq-photo3 figure{margin:0;border:1px solid var(--line);background:var(--card);display:flex;flex-direction:column}
+.sq-photo3 img{width:100%;height:340px;object-fit:cover}
+.sq-photo3 figcaption{font:500 .68rem/1.4 var(--mono);color:var(--soft);text-transform:uppercase;padding:10px 12px;border-top:1px solid var(--line)}
+.sq-ins{margin-top:16px}
+.sq-ins p{margin:0 0 12px}
+.sq-faq{max-width:52em;border-top:1px solid var(--line)}
+.sq-faq details{border-bottom:1px solid var(--line)}
+.sq-faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;padding:18px 0;font:600 1.08rem/1.35 var(--display);font-stretch:104%;color:var(--ink)}
+.sq-faq summary::-webkit-details-marker{display:none}
+.sq-faq summary::after{content:"+";font:500 1.3rem/1 var(--mono);color:var(--green-ink)}
+.sq-faq details[open] summary::after{content:"–"}
+.sq-faq p{margin:0 0 18px;max-width:46em}
+.sq-close p{color:#C9D0CA;max-width:34em;margin:14px 0 0}
+.sq-foot .legal{border-top:0;padding-top:0}
+.sq-foot .legal a{display:inline;margin:0 0 0 16px}
+@media (max-width:960px){
+  .sq-grid,.sq-photo3{grid-template-columns:1fr}
+  .sq-photo3 img{height:280px}
+}
+@media (max-width:600px){
+  .sq-tiles,.sq-row{grid-template-columns:1fr}
+  .sq-stats{grid-template-columns:1fr 1fr}
+  .sq-stats div:nth-child(3){border-left:0}
+  .sq-stats div:nth-child(n+3){border-top:1px solid rgba(255,255,255,.16)}
+  .sq-head .sq-phone{display:none}
+  .sq-head nav .btn{display:inline-flex}
+}
+</style>
+</head>
+<body>
+<header class="sq-head"><div class="wrap">
+  <a class="mark" href="/" aria-label="Global Haven Ventures home"><img src="/assets/ghv-logo.webp" alt="Global Haven Ventures" width="398" height="240"></a>
+  <nav aria-label="Quote"><a class="sq-phone" href="tel:+12082483420">(208) 248-3420</a><a class="btn green" href="#quote">Get my quote</a></nav>
+</div></header>
+<main>
+
+<section class="photo-hero sq-hero"><img class="hero-bg" src="/assets/walls-on-slab.webp" alt="Prepanelized cold-formed steel wall panels standing on a slab, crane behind" width="1280" height="853"><div class="wrap sq-grid">
+  <div>
+    <div class="tag"><b>●</b> Prepanelized cold-formed steel framing</div>
+    <h1>Stop losing weeks to framing. <span>Get your steel quote today.</span></h1>
+    <p class="sq-lead">We supply prepanelized cold-formed steel wall panels, floor trusses and roof trusses to developers, general contractors and owners, engineered to your drawings and delivered ready to stand.</p>
+    <ul class="sq-pts">
+      <li>Up to 50% less framing time on site</li>
+      <li>Less than 1% waste on the jobsite</li>
+      <li>Panels fabricated to ±1 mm</li>
+      <li>Framing up to 7 stories, made from all-US steel</li>
+    </ul>
+    <div class="sq-stats">
+      <div><b>50%</b><span>framing time, up to</span></div>
+      <div><b>&lt;1%</b><span>waste</span></div>
+      <div><b>±1 mm</b><span>tolerance</span></div>
+      <div><b>7</b><span>stories, up to</span></div>
+    </div>
+  </div>
+
+  <div class="sq-card" id="quote">
+    <form id="sq-form" action="https://procure-lead-engine.dan-fda.workers.dev/submit" method="POST" novalidate>
+      <input type="hidden" name="site" value="globalhavenventures.com">
+      <input type="hidden" name="lead_source" value="globalhavenventures.com/steel-quote">
+      <input type="hidden" name="vertical" value="cold-formed steel framing">
+      <input type="hidden" name="_redirect" value="https://globalhavenventures.com/steel-quote-thank-you">
+      <input type="hidden" name="project_type" id="sq-project_type" value="">
+      <input type="hidden" name="size_metric" id="sq-size_metric" value="">
+      <input type="hidden" name="size" id="sq-size" value="">
+      <input type="hidden" name="timeline" id="sq-timeline" value="">
+      <input type="hidden" name="gclid" id="sq-gclid" value="">
+      <input type="hidden" name="gbraid" id="sq-gbraid" value="">
+      <input type="hidden" name="wbraid" id="sq-wbraid" value="">
+      <input type="hidden" name="utm_source" id="sq-utm_source" value="">
+      <input type="hidden" name="utm_medium" id="sq-utm_medium" value="">
+      <input type="hidden" name="utm_campaign" id="sq-utm_campaign" value="">
+      <input type="hidden" name="utm_term" id="sq-utm_term" value="">
+      <input type="hidden" name="utm_content" id="sq-utm_content" value="">
+      <input type="hidden" name="campaignid" id="sq-campaignid" value="">
+      <input type="hidden" name="landing" id="sq-landing" value="">
+      <input type="hidden" name="referrer" id="sq-referrer" value="">
+
+      <div class="sq-prog"><i id="sq-bar"></i></div>
+      <div class="sq-stepno"><span id="sq-sn">Step 1 of 4</span><button type="button" class="sq-back" id="sq-bk" hidden>&larr; Back</button></div>
+
+      <div class="sq-step on" data-s="1">
+        <h2 class="sq-q">What are you building?</h2>
+        <div class="sq-tiles" id="sq-t1">
+          <button type="button" class="sq-tile" data-v="Custom home / barndominium" data-m="home">A custom home or barndominium</button>
+          <button type="button" class="sq-tile" data-v="Multi-unit (apartments, condos, hotel)" data-m="units">Apartments, condos or a hotel</button>
+          <button type="button" class="sq-tile" data-v="Commercial building" data-m="comm">A commercial building<small>Retail, office, school, mixed-use</small></button>
+          <button type="button" class="sq-tile" data-v="Other" data-m="comm">Something else</button>
+        </div>
+      </div>
+
+      <div class="sq-step" data-s="2">
+        <h2 class="sq-q" id="sq-q2">How many units?</h2>
+        <div class="sq-tiles" id="sq-t2"></div>
+      </div>
+
+      <div class="sq-step" data-s="3">
+        <h2 class="sq-q">When do you need framing?</h2>
+        <div class="sq-tiles" id="sq-t3">
+          <button type="button" class="sq-tile" data-v="Bidding now">We are bidding now</button>
+          <button type="button" class="sq-tile" data-v="Within 3 months">Within 3 months</button>
+          <button type="button" class="sq-tile" data-v="3-12 months">3 to 12 months out</button>
+          <button type="button" class="sq-tile" data-v="Planning">Still planning</button>
+        </div>
+      </div>
+
+      <div class="sq-step" data-s="4">
+        <h2 class="sq-q">Where should we send your quote?</h2>
+        <label for="sq-name">Name</label><input id="sq-name" name="name" autocomplete="name" required>
+        <div class="sq-row">
+          <div><label for="sq-email">Email</label><input id="sq-email" name="email" type="email" autocomplete="email" required></div>
+          <div><label for="sq-phone">Phone</label><input id="sq-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        </div>
+        <label for="sq-state">Project location</label>
+        <select id="sq-state" name="state" required>
+          <option value="">Select state or territory</option>
+          <option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>District of Columbia</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option>
+          <option>Puerto Rico</option><option>US Virgin Islands</option><option>Bahamas</option><option>Other Caribbean</option><option>Other</option>
+        </select>
+        <label for="sq-notes">Anything else we should know? <span class="opt">(optional)</span></label>
+        <textarea id="sq-notes" name="notes" placeholder="Plans status, deadlines, questions."></textarea>
+        <div class="sq-hp" aria-hidden="true"><label for="sq-hp">Leave blank</label><input id="sq-hp" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+        <p class="sq-err" id="sq-err" role="alert"></p>
+        <button class="btn green sq-submit" type="submit">Get my quote &rarr;</button>
+        <p class="sq-fine">By submitting, you agree that Global Haven Ventures may contact you by phone and email about your project. We use your details only to respond to this request. See our <a href="/privacy-policy.html">Privacy Policy</a> and <a href="/terms.html">Terms of Use</a>.</p>
+      </div>
+    </form>
+    <noscript><p class="sq-fine">The quote form needs JavaScript. Call us at <a href="tel:+12082483420">(208) 248-3420</a>.</p></noscript>
+  </div>
+</div></section>
+
+<section class="sec first"><div class="wrap">
+  <div class="head">
+    <div><div class="tag">What we supply</div><h2>The structure, <span>panelized and engineered.</span></h2></div>
+    <p>We don’t sell houses. We sell the structure. Prepanelized cold-formed steel wall panels, floor trusses and roof trusses, made to your drawings. <a href="/steel">More about our steel framing →</a></p>
+  </div>
+  <div class="supply">
+    <figure><img src="/assets/panel-crane-set.webp" alt="Prepanelized cold-formed steel wall panel set by crane" width="1280" height="1280" loading="lazy"><figcaption><span class="no">01</span><h3>Prepanelized steel wall panels</h3><p>Load-bearing and non-load-bearing cold-formed steel wall panels, fabricated flat and set by crane or hand crew.</p></figcaption></figure>
+    <figure><img src="/assets/framing-model.webp" alt="3D model of a building framed in cold-formed steel: walls, floor trusses and roof trusses" width="1400" height="540" loading="lazy"><figcaption><span class="no">02</span><h3>Steel floor trusses</h3><p>Open-web cold-formed steel floor trusses for long clear spans and straight, flat floors.</p></figcaption></figure>
+    <figure><img src="/assets/roof-trusses.webp" alt="Row of galvanized cold-formed steel roof trusses set on a building" width="1400" height="900" loading="lazy"><figcaption><span class="no">03</span><h3>Steel roof trusses</h3><p>Engineered cold-formed steel roof trusses, kitted and labeled for install sequence.</p></figcaption></figure>
+  </div>
+</div></section>
+
+<section class="sec division steel"><div class="wrap">
+  <div class="head">
+    <div><div class="tag">How it works</div><h2>From drawings <span>to standing frame.</span></h2></div>
+    <p>Panels are built in the order they’ll be assembled, so the site crew stands walls instead of measuring and cutting them.</p>
+  </div>
+  <ol class="process">
+    <li><h3>Design</h3><p>Review plans and scope.</p></li>
+    <li><h3>Engineer</h3><p>Panel and truss engineering.</p></li>
+    <li><h3>Fabricate</h3><p>Precision cut and assembled.</p></li>
+    <li><h3>Kit &amp; deliver</h3><p>Labeled, sequenced loads.</p></li>
+    <li><h3>Stand</h3><p>Panels set on your slab or deck.</p></li>
+    <li><h3>Hand-off</h3><p>Frame ready for trades.</p></li>
+  </ol>
+  <div class="sq-photo3">
+    <figure><img src="/assets/panel-assembly-crew.webp" alt="Crew fastening cold-formed steel framing panels on a factory line" width="1800" height="1195" loading="lazy"><figcaption>Panels framed and fastened in the factory</figcaption></figure>
+    <figure><img src="/assets/truss-lift.webp" alt="Steel roof trusses lifted by crane over steel-framed walls" width="1280" height="1280" loading="lazy"><figcaption>Trusses set by crane</figcaption></figure>
+    <figure><img src="/assets/sheathed-3storey.webp" alt="Three-storey cold-formed steel building with exterior sheathing and steel roof trusses" width="1394" height="1046" loading="lazy"><figcaption>Framed, sheathed and trussed · three storeys</figcaption></figure>
+  </div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <div class="head">
+    <div><div class="tag">Project types</div><h2>Built for multifamily, hotels, <span>schools and barndominiums.</span></h2></div>
+    <p>Framing up to 7 stories. Lead time varies by project.</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Project type</th><th>Typical scale</th><th>Fit</th></tr></thead>
+    <tbody>
+      <tr><td>Multifamily and mixed-use</td><td>50+ units, up to 7 stories</td><td>Repeatable floor plates; fastest framing gains</td></tr>
+      <tr><td>Hotels</td><td>Up to 7 stories</td><td>Repeat room modules, tight schedules</td></tr>
+      <tr><td>Schools and institutions</td><td>1–3 stories typical</td><td>Long spans, fixed opening dates</td></tr>
+      <tr><td>Barndominiums and custom residential</td><td>Single-family</td><td>Panelized shell, owner or GC set</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section class="sec division steel"><div class="wrap">
+  <div class="head">
+    <div><div class="tag">Steel vs wood framing</div><h2>Why teams frame <span>in cold-formed steel.</span></h2></div>
+    <p>Prepanelized cold-formed steel against conventional stick-built wood framing.</p>
+  </div>
+  <div class="cards3">
+    <div class="panel"><div class="tag"><b>01</b> Straight and consistent</div><h3>No warp, twist or shrink</h3><p class="small">Steel does not warp, twist or shrink, so walls and floors stay flat and openings stay square.</p></div>
+    <div class="panel"><div class="tag"><b>02</b> Faster on site</div><h3>Up to 50% less framing time</h3><p class="small">Prepanelized walls cut framing time by up to 50% and send less waste to the dumpster.</p></div>
+    <div class="panel"><div class="tag"><b>03</b> All-US steel</div><h3>Made from US steel</h3><p class="small">Cold-formed steel framing made from US-sourced steel.</p></div>
+  </div>
+  <div class="panel sq-ins"><div class="tag"><b>04</b> Insurance</div><h3>Lower insurance cost</h3><p>When the entire structure is steel, including the roof trusses, insurers rate it below wood frame. Premiums can run 20–40% lower than frame for both builder’s risk and completed property coverage. Ask your broker to confirm for your project.</p><p class="small">A steel frame with wood roof trusses is rated as frame, so the discount is lost. That is why we supply wall panels, floor trusses and roof trusses together.</p></div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <div class="head">
+    <div><div class="tag">FAQ</div><h2>Questions we get from <span>developers and GCs.</span></h2></div>
+    <p></p>
+  </div>
+  <div class="sq-faq">
+    <details><summary>What do you supply?</summary><p>Prepanelized cold-formed steel wall panels, floor trusses and roof trusses, engineered to your drawings.</p></details>
+    <details><summary>How tall can you build?</summary><p>Framing up to 7 stories.</p></details>
+    <details><summary>What size projects fit best?</summary><p>Repeatable multifamily, mixed-use and hotel projects, typically 50+ units. Smaller and custom projects are welcome to ask.</p></details>
+    <details><summary>Where does the steel come from?</summary><p>All-US steel.</p></details>
+    <details><summary>What do you need to quote?</summary><p>Plans if you have them, project location, number of stories and your target start date. No drawings yet is fine; tell us the stage.</p></details>
+    <details><summary>Do you ship to Puerto Rico, the Caribbean and the Bahamas?</summary><p>Yes. We supply projects across the US, Puerto Rico, the US Virgin Islands, the Bahamas and the Caribbean. Tell us the project location and we will confirm delivery details.</p></details>
+  </div>
+</div></section>
+
+<section class="close sq-close"><div class="wrap">
+  <div><h2>Tell us where your project stands.</h2><p>Send plans, a schedule or just a location. We will tell you what steel framing can do for it.</p></div>
+  <div class="side"><a class="btn green" href="#quote">Request a project quote →</a><a class="phone" href="tel:+12082483420">(208) 248-3420</a></div>
+</div></section>
+</main>
+<footer class="sq-foot"><div class="wrap">
+  <div class="legal"><span>© 2026 Global Haven Ventures. All rights reserved.</span><span><a href="tel:+12082483420">(208) 248-3420</a><a href="/privacy-policy.html">Privacy Policy</a><a href="/terms.html">Terms of Use</a></span></div>
+</div></footer>
+
+<script>
+/* 4-step quote funnel (behavior from preview v8). Native POST to the Procure lead engine on submit. */
+(function(){
+  var dl = window.dataLayer = window.dataLayer || [];
+  var f = document.getElementById('sq-form'), step = 1, hist = [], started = false, sent = false;
+  function $(id){ return document.getElementById(id); }
+  var RANGES = {
+    home:  ['Under 2,500 sq ft','2,500 to 5,000','5,000 to 10,000','10,000 or more'],
+    units: ['Under 10','10 to 49','50 to 99','100 or more'],
+    comm:  ['Under 10,000 sq ft','10,000 to 50,000','50,000 to 100,000','100,000 or more']
+  };
+  var QTXT = { home:'About how many square feet?', units:'How many units or rooms?', comm:'About how many square feet?' };
+  // ad attribution: copy click IDs / UTMs from the landing URL into the hidden fields
+  try {
+    var q = new URLSearchParams(location.search);
+    ['gclid','gbraid','wbraid','utm_source','utm_medium','utm_campaign','utm_term','utm_content','campaignid'].forEach(function(k){
+      var v = q.get(k); if (v && $('sq-' + k)) $('sq-' + k).value = v.slice(0, 300);
+    });
+    $('sq-landing').value = (location.origin + location.pathname).slice(0, 300);
+    $('sq-referrer').value = (document.referrer || '').slice(0, 300);
+  } catch (e) {}
+  function show(n){
+    step = n;
+    [].forEach.call(f.querySelectorAll('.sq-step'), function(s){ s.classList.toggle('on', +s.dataset.s === n); });
+    $('sq-sn').textContent = 'Step ' + n + ' of 4';
+    $('sq-bar').style.width = (n * 25) + '%';
+    $('sq-bk').hidden = (n === 1);
+    var first = f.querySelector('.sq-step.on .sq-tile, .sq-step.on input');
+    if (first && n > 1) { try { first.focus({ preventScroll: true }); } catch (e) {} }
+  }
+  function go(n){ hist.push(step); show(n); }
+  function track(name, extra){ var o = { event: name, form_id: 'steel_quote' }; for (var k in extra) o[k] = extra[k]; dl.push(o); }
+  $('sq-t1').addEventListener('click', function(e){
+    var b = e.target.closest('.sq-tile'); if (!b) return;
+    if (!started) { started = true; track('quote_form_start'); }
+    $('sq-project_type').value = b.dataset.v; $('sq-size_metric').value = b.dataset.m;
+    $('sq-q2').textContent = QTXT[b.dataset.m];
+    var t2 = $('sq-t2'); t2.innerHTML = '';
+    RANGES[b.dataset.m].forEach(function(r){
+      var x = document.createElement('button'); x.type = 'button'; x.className = 'sq-tile'; x.dataset.v = r; x.textContent = r; t2.appendChild(x);
+    });
+    track('quote_step', { step: 1, project_type: b.dataset.v });
+    go(2);
+  });
+  $('sq-t2').addEventListener('click', function(e){
+    var b = e.target.closest('.sq-tile'); if (!b) return;
+    $('sq-size').value = b.dataset.v; track('quote_step', { step: 2, size: b.dataset.v }); go(3);
+  });
+  $('sq-t3').addEventListener('click', function(e){
+    var b = e.target.closest('.sq-tile'); if (!b) return;
+    $('sq-timeline').value = b.dataset.v; track('quote_step', { step: 3, timeline: b.dataset.v }); go(4);
+  });
+  $('sq-bk').addEventListener('click', function(){ if (hist.length) show(hist.pop()); });
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (sent) return;
+    var err = $('sq-err'); err.textContent = '';
+    var bad = [];
+    [['sq-name','name'],['sq-email','email'],['sq-phone','phone'],['sq-state','location']].forEach(function(p){ if (!$(p[0]).value.trim()) bad.push(p[1]); });
+    var em = $('sq-email').value.trim();
+    if (em && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) bad.push('a valid email');
+    var ph = $('sq-phone').value.replace(/\D/g, '');
+    if ($('sq-phone').value.trim() && ph.length < 10) bad.push('a full phone number');
+    if (!$('sq-project_type').value || !$('sq-size').value || !$('sq-timeline').value) { show(1); hist = []; err.textContent = ''; return; }
+    if (bad.length) { err.textContent = 'Please complete: ' + bad.join(', ') + '.'; return; }
+    sent = true;
+    track('generate_lead', { project_type: $('sq-project_type').value, size: $('sq-size').value, timeline: $('sq-timeline').value, state: $('sq-state').value });
+    var btn = f.querySelector('.sq-submit'); btn.disabled = true; btn.textContent = 'Sending…';
+    HTMLFormElement.prototype.submit.call(f);
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","name":"Global Haven Ventures","url":"https://globalhavenventures.com","logo":"https://globalhavenventures.com/assets/ghv-logo.webp","telephone":"+1-208-248-3420"},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What do you supply?","acceptedAnswer":{"@type":"Answer","text":"Prepanelized cold-formed steel wall panels, floor trusses and roof trusses, engineered to your drawings."}},
+{"@type":"Question","name":"How tall can you build?","acceptedAnswer":{"@type":"Answer","text":"Framing up to 7 stories."}},
+{"@type":"Question","name":"What size projects fit best?","acceptedAnswer":{"@type":"Answer","text":"Repeatable multifamily, mixed-use and hotel projects, typically 50+ units. Smaller and custom projects are welcome to ask."}},
+{"@type":"Question","name":"Where does the steel come from?","acceptedAnswer":{"@type":"Answer","text":"All-US steel."}},
+{"@type":"Question","name":"What do you need to quote?","acceptedAnswer":{"@type":"Answer","text":"Plans if you have them, project location, number of stories and your target start date. No drawings yet is fine; tell us the stage."}},
+{"@type":"Question","name":"Do you ship to Puerto Rico, the Caribbean and the Bahamas?","acceptedAnswer":{"@type":"Answer","text":"Yes. We supply projects across the US, Puerto Rico, the US Virgin Islands, the Bahamas and the Caribbean. Tell us the project location and we will confirm delivery details."}}]}]}
+</script>
+</body>
+</html>
