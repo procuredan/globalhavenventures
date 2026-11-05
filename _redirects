@@ -1,0 +1,5 @@
+# Factory-managed: copied verbatim into the Pages root by scripts/generate.mjs. Do not hand-edit .repos/ or dist/.
+# 2026-11-05: /steel-quote renamed to /steel-framing (Dan: remove "quote"). Old links (incl. the Nov 3 team email) keep working.
+/steel-quote              /steel-framing              301
+/steel-quote.html         /steel-framing              301
+/steel-quote-thank-you    /steel-framing-thank-you    301
